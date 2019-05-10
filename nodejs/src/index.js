@@ -3,6 +3,7 @@ require('dd-trace').init({
 	port: 8126,
 	env: 'development',
 	logInjection: true,
+  analytics: true,
 });
 
 const { createLogger, format, transports } = require('winston');
